@@ -1,0 +1,366 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon before the societies for reformation of manners in Dublin preached in New-Row, April the 26th, 1698 / by Nath. Weld.</title>
+            <author>Weld, Nathaniel, d. 1731.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 54 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A65385</idno>
+            <idno type="STC">Wing W1261</idno>
+            <idno type="STC">ESTC R24608</idno>
+            <idno type="EEBO-CITATION">08254146</idno>
+            <idno type="OCLC">ocm 08254146</idno>
+            <idno type="VID">41216</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A65385)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 41216)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1243:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon before the societies for reformation of manners in Dublin preached in New-Row, April the 26th, 1698 / by Nath. Weld.</title>
+                  <author>Weld, Nathaniel, d. 1731.</author>
+               </titleStmt>
+               <extent>[2], 20 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Andrew Crook for Eliphal Dobson,</publisher>
+                  <pubPlace>Dublin :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Published at the desire of the said societies."</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Isaiah XXXII, 14-18 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:41216:1"/>
+            <pb facs="tcp:41216:1" rendition="simple:additions"/>
+            <p>A SERMON Before the SOCIETIES FOR Reformation of Manners IN DUBLIN: Preached in <hi>NEW-ROW, April</hi> the <hi>26th.</hi> 1698.</p>
+            <p>By <hi>NATH. WELD.</hi>
+            </p>
+            <p>
+               <hi>Publiſhed at the deſire of the ſaid SOCIETIES.</hi>
+            </p>
+            <p>
+               <hi>D<g ref="char:V">Ʋ</g>BLIN:</hi> Printed by <hi>Andrew Crook,</hi> for <hi>Eliphal Dobſon,</hi> Bookſeller at the Stationers Arms in <hi>Caſtle-ſtreet,</hi> MDCXCVIII.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:41216:2" rendition="simple:additions"/>
+            <pb facs="tcp:41216:2"/>
+            <head>To the SOCIETIES FOR Reformation.</head>
+            <p>WHEN I was called to this Service, I conſidered that you had ſeveral excellent Sermons already in your Hands, in which I found thoſe Prudent Directions, and Perſwaſive Arguments for promo<g ref="char:EOLhyphen"/>ting your Pious Deſign, that ſeemed to me to ſuperſede the ne<g ref="char:EOLhyphen"/>ceſſity of adding more in particular; or of ſaying again what was much better ſaid before. I thought therefore I could not be more Serviceable to this Good Work, than by Directing you to that Sacred Fountain, from whence all your Supplies and Succeſſes flow. This I have Attempted in the following Ser<g ref="char:EOLhyphen"/>mon: And, though I am ſenſible the Performance is very mean, yet ſince you Judge its Publication may be of ſome Uſe, I chuſe thus to Expoſe my Weakneſſes to Publick Uiew, rather than decline any Teſtimony of my Zeal for this Excellent Un<g ref="char:EOLhyphen"/>dertaking</p>
+            <pb facs="tcp:41216:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:41216:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:41216:4"/>
+            <p>And that it may proſper in your Hands, I ſtall not ceaſe to Pray, that you may have freſh Effuſions of the Holy Spirit upon you, to preſerve your Zeal from Decays, and to carry you on with yet greater Alacrity: So that it may be evident, 'tis not only the Novelty of the Attempt that Charms you into ſome Fondneſs for it at the preſent, but that you are Acted by Nobler, and more Steady Principles in this matter.</p>
+            <p>I do alſo hope you will be ſo far under the Conduct of the Spirit of Wiſdom from above, that your mutual Love and Cor<g ref="char:EOLhyphen"/>reſpondence, will not be Abated or Interrupted by any unkind Inſinuations, nor you be Diverted from your preſent Work, to an unſeaſonable Enquiry how the Flame was firſt kindled, when our utmoſt United Indeavours are neceſſary to Quench it. The Suppreſſing Prophaneſs is viſibly our common Intereſt, and we may make this Advantage of our unhappy ſeparate Communions, to provoke one another to an Holy Emulation.</p>
+            <p>Let us only contend, who ſhall be moſt Zealous and Exem<g ref="char:EOLhyphen"/>plary in ſerious Piety, and abound moſt in the Exerciſe of that diffuſive Charity, that confines not its ſelf within the narrow bounds of a party, but Embraces all without Diſtinction that ap<g ref="char:EOLhyphen"/>pear to have the Character and Impreſs of Real Holineſs: And if we be thus affected towards one another, the miſchievous Effects of our different Apprehenſions and Practices in leſſer Matters, will be in a great meaſure prevented. That this may be the amiable Temper of Proteſtants towards each other, and particular<g ref="char:EOLhyphen"/>ly yours, and that in Acting Conformably to it, your Pious En<g ref="char:EOLhyphen"/>deavous to Reform a Licentious Age, may be Crowned with Viſible and Glorious Succeſs; ſhall be the Prayer of</p>
+            <closer>
+               <signed>Your Servant in the Goſpel, <hi>N. W.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:41216:4"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Iſaiah XXXII. 14. Verſes.</hi>
+                  </bibl> Becauſe the Palaces ſhall be forſaken, the multitude of the City left, <hi>&amp;c.</hi>
+               </q>
+               <q>
+                  <bibl>
+                     <hi>Iſaiah XXXII. 15. Verſes.</hi>
+                  </bibl> Until the Spirit be poured upon us from on high, and the Wil<g ref="char:EOLhyphen"/>derneſs be a fruitful Field, and the fruitful Field be counted for a Forreſt.</q>
+               <q>
+                  <bibl>
+                     <hi>Iſaiah XXXII. 16. Verſes.</hi>
+                  </bibl> Then Judgment ſhall dwell in the Wilderneſs, and Righteouſ<g ref="char:EOLhyphen"/>neſs remain in the fruitful Field.</q>
+               <q>
+                  <bibl>
+                     <hi>Iſaiah XXXII. 17. Verſes.</hi>
+                  </bibl> And the work of Righteouſneſs ſhall be Peace, and the effect of Righteouſneſs, Quietneſs and aſſurance for ever.</q>
+               <q>
+                  <bibl>
+                     <hi>Iſaiah XXXII. 18. Verſes.</hi>
+                  </bibl> And my people ſhall dwell in a peaceable habitation, and in ſure dwellings, and in quiet reſting places.</q>
+            </epigraph>
+            <p>THE Degenerate Condition of <hi>Human Nature,</hi> is obvi<g ref="char:EOLhyphen"/>ous to every Eye, and adminiſters juſt occaſion of wonder and lamentation to all that have any free and raiſed thoughts about their own <hi>Being</hi> and <hi>End.</hi> That <hi>Nature,</hi> which originally was a bright reſemblance of the Di<g ref="char:EOLhyphen"/>vine Purity, like <hi>Eden</hi> the Garden of the Lord, is in its fal'n State, a confuſed, deformed Maſſe, <hi>a barren Wilderneſs.</hi> It is deſpoil'd of thoſe Moral Excellencies that were the Glories of our Innocent State: It is perverted to that degree, that reaſon<g ref="char:EOLhyphen"/>able creatures are under the power of diſaffection to their true happineſs.</p>
+            <p>And being maim'd in that principal point, a deluge of all kinds of diſorders and miſeries is broke in upon it. How is it oppreſſed by malicious Devils, invaded by loathſom Vices, un<g ref="char:EOLhyphen"/>der the government of thoſe defiling, dividing Luſts, that make men even cruel to themſelves, and enemies to one another! Who that has any bowels of love to that <hi>Nature</hi> whereof he is a part, can behold it labouring under theſe diſmal ruins, and haſtening to greater, with an inſenſible frame, or refuſe to con<g ref="char:EOLhyphen"/>tribute his utmoſt towards its relief? This <hi>Generous Motive</hi> has (I hope) had its influence on you (my Brethren) who are in<g ref="char:EOLhyphen"/>gaged in this Pious Deſign of promoting a <hi>Practical Reforma<g ref="char:EOLhyphen"/>tion.</hi> A Work, beyond exception, excellent at all times; and
+<pb n="2" facs="tcp:41216:5"/>ſo highly neceſſary at this, that without ſome conſiderable Ad<g ref="char:EOLhyphen"/>vances in it, we may yet entertain the moſt diſmal apprehen<g ref="char:EOLhyphen"/>ſions of our own Eſtate, and expect to be abandoned to all the Calamities an Incorrigible People can deſerve. And yet this neceſſary Work is attended with ſuch formidable difficulties, as would utterly diſcourage our attempts, and make us con<g ref="char:EOLhyphen"/>clude our <hi>Wound incurable;</hi> if we had no reaſon to expect the concurrence and aſſiſtance of a Power above our own: To this Glorious Spring of our help, my Text directs you, wherein an happy reformed ſtate of things is deſcribed, and amplified by the cauſe from which it flows, and the happy Fruit it bears.</p>
+            <p>
+               <hi>Firſt, A Reformed State of things</hi> is deſcribed in part of the 15 and 16 v. In it, perſons whoſe hearts and lives were like <hi>a bar<g ref="char:EOLhyphen"/>ren Wilderneſs,</hi> became <hi>Fruitful</hi> in univerſal Holineſs; and that to ſuch a degree, that they who before were accounted <hi>Fruitful,</hi> comparatively with <hi>them</hi> are but as the <hi>Forreſt:</hi> Among them <hi>Judgment and Righteouſneſs abound;</hi> Terms comprehenſive of the Duties of Piety towards God, and Juſtice and Charity towards Men: When a people are throughly <hi>Reformed,</hi> theſe excellent Virtues will <hi>flow down our ſtreets like a ſtream.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> You have here the Cauſe that produces ſuch an happy Change, <hi>viz.</hi> The <hi>pouring the Spirit from on high:</hi> This is as neceſſary in order to it, as the warm Beams of the Sun, and gentle fruitful Showers are, that the face of our Earth may be renewed agen.</p>
+            <p>
+               <hi>Thirdly, You have the comfortable effects of this Reformed State</hi> in abundance of temporal proſperity and peace, and the ſecure ſtable continuance thereof, even to ſucceeding Generations 17 and 18 verſes.</p>
+            <p>I am not concerned to enquire what particular time theſe Words refer unto: Expoſitors generally agree, that they had a partial accompliſhment upon the return of the <hi>Jews</hi> from the <hi>Babyloniſh</hi> Captivity: And a fuller one in a Spiritual ſenſe at the coming of the <hi>Meſſiah;</hi> tho' ſome expect to ſee them li<g ref="char:EOLhyphen"/>terally fulfilled in a <hi>Glorious ſtate</hi> of things yet to commence. But my deſign from the Words, engages me not to determine in this matter, for I ſhall only improve the connexion which the Prophet here obſerves, between <hi>pouring out the Spirit</hi> from on high, and ſuch a plentiful Increaſe of <hi>Judgement and Righte<g ref="char:EOLhyphen"/>ouſneſs.</hi>
+               <pb n="3" facs="tcp:41216:5"/>And this ſhall be the Subject of what I ſhall offer to you from theſe words,</p>
+            <p>Doct. <hi>That the effuſion of the holy Spirit is neceſſary in order to an effectual and thorough Reformation.</hi>
+            </p>
+            <p>Now the conſideration of this Truth leads me,</p>
+            <p>Firſt, <hi>To Enquire what we are to underſtand by this pouring forth the Spirit from on high.</hi> Secondly, <hi>To ſhew what Influence this effuſion of the Holy Spirit has upon an effectual and thorough Refor<g ref="char:EOLhyphen"/>mation.</hi> And when I have made ſome brief <hi>Reflections</hi> on each of theſe, I ſhall chiefly inſiſt on the <hi>Application</hi> of this truth, to the preſent <hi>Occaſion.</hi>
+            </p>
+            <p>Firſt, <hi>Let us conſider what is to be underſtood by pouring the Spirit from on high;</hi> and all that I ſhall obſerve to you under this head, ſhall be in theſe Three Propoſitions.</p>
+            <p>Firſt, <hi>That there are real communications of the Spirit of God to Men:</hi> That Divine Spirit that <hi>garniſhed the Heavens,</hi> and <hi>mo<g ref="char:EOLhyphen"/>ved upon the Face of the Waters</hi> in the old Creation; has he no ſhare of efficiency in the new? This is moſt Incredible, and ſo much the rather, becauſe the work of Application in this Oeconomy, pecularly terminates in him: Indeed by what diſ<g ref="char:EOLhyphen"/>play of his Divine Power he works upon the Souls of men, is not eaſie to be expreſſed or conceived: Doubtleſs, 'tis in a man<g ref="char:EOLhyphen"/>ner, that is accommodated to our rational Faculties, and fully conſiſtent with that Liberty that is Eſſential to a free Creature. But thô the nature of theſe Operations be ſecret, like the Origi<g ref="char:EOLhyphen"/>nal of the <hi>Wind,</hi> yet the Effects thereof, are as ſenſible as its ſound and force, to which they are compared by our Saviour.<note place="margin">John 3.8.</note> And why ſhould it be thought Unreaſonable, that this Bleſſed Spirit ſhould have acceſs to ours, when Wicked Spirits may, and can <hi>fill the heart,</hi> and do <hi>work effectually in the children of Diſobedience:</hi>
+               <note place="margin">Acts 5.3. Eph. 2.2.</note> And even the Heathen world was wont to aſcribe any extraordina<g ref="char:EOLhyphen"/>ry appearances in men, to their having the Spirit of God; as <hi>Pharaoh</hi> concerning <hi>Joſeph, can we find ſuch a man as this,</hi>
+               <note place="margin">Gen. 41.38. Dan. 5.14.</note> 
+               <hi>one in whom the Spirit of God is.</hi> And <hi>Belſhazzar</hi> ſays to <hi>Daniel, I have heard of thee, that the Spirit of the Gods is in thee.</hi> Let not ſuch a Truth be doubted among Chriſtians, that extorted an acknowledgement of it ſelf, by its own Evidence from a Pagan World.</p>
+            <p>Secondly, <hi>Theſe communications of the Spirit,</hi>
+               <note place="margin">1 Cor. 12.4.</note> 
+               <hi>are of ſeveral
+<pb n="4" facs="tcp:41216:6"/>kinds;</hi> for there are diverſities of Gifts, but the ſame Spirit, he is the Sacred <hi>Fountain</hi> both of common Gifts, and ſpecial Grace, and may be ſaid to be poured out upon men with reſpect to both.</p>
+            <p>Firſt, <hi>In the diſpenſation of common Gifts.</hi> In this ſenſe many are anointed, who are not truly Sanctified; they have a ma<g ref="char:EOLhyphen"/>nifeſtation of the Spirit given them to profit withal; they are qualified for ſome particular ſervice to which they were ap<g ref="char:EOLhyphen"/>pointed;<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. 45.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.4.</note> as <hi>Cyrus</hi> is called God's anointed, thô he knew not God. Thus eminent Qualifications for the <hi>Civil Magiſtracy,</hi> ſuch as Wiſdom, Integrity, Juſtice, Fortitude, <hi>&amp;c.</hi> are a com<g ref="char:EOLhyphen"/>munication from the Spirit: In this ſenſe the Spirit of the Lord is ſaid to come upon <hi>Saul,</hi> when the Cruelty of <hi>Nahaſh</hi> rais'd his Courage,<note place="margin">1 Sam. 11.6.</note> to deliver the men of <hi>Jabeſh Gilead.</hi> Thus alſo <hi>Miniſterial Gifts</hi> are a Diſpenſation of the Spirit; in 1 <hi>Cor.</hi> 12.9, and 10 <hi>verſes,</hi> the Apoſtle enumerates ſeveral of them, both <hi>ordinary</hi> and <hi>extraordinary,</hi> and concludes <hi>verſe</hi> 12. <hi>All theſe worketh one and the ſame Spirit dividing to every man ſeve<g ref="char:EOLhyphen"/>rally as he will.</hi> Under this head we may alſo conſider thoſe <hi>common Operations</hi> of the Holy Spirit, by which he enlightens the Minds, and awakens the Conſciences of many who are not truly ſanctified: On this account, they are ſaid to be <hi>parta<g ref="char:EOLhyphen"/>kers of the Holy Ghoſt,</hi> Heb. 6.4. By thoſe rational convictions which he ſuggeſts to their Minds,<note place="margin">Gen. 6.3.</note> the Spirit of God ſtrives with the Spirits of Men;<note place="margin">1 Theſ. 5.19. Iſa. 63.10.</note> and when ſinners do deſparately out<g ref="char:EOLhyphen"/>rage their own light, and Rebel againſt it, they are ſaid to <hi>quench and vex the Holy Spirit:</hi> So that this is a way of expreſ<g ref="char:EOLhyphen"/>ſion familiar and frequent in the Scriptures, and we may well be allowed to conform our ſelves thereto, thô, ſome prophane Wits have attempted to expoſe ſuch kind of Language, as <hi>Cant Enthuſiaſm, or Myſtical Nonſenſe,</hi> to the great reproach of the Holy Scriptures, and diſhonour of the Holy Spirit who Inſpired them.</p>
+            <p>Secondly, <hi>In the communication of ſpecial Grace:</hi> Thus God promiſes, <hi>Zech.</hi> 12.10. <hi>And I will pour upon the houſe of</hi> David, <hi>and upon the Inhabitants of</hi> Jeruſalem, <hi>the Spirit of Grace, and of Supplications,</hi> &amp;c. The Holy Spirit is poured out as a Spirit of Grace, both when he Implants Grace, and when he Excites it.</p>
+            <p>Firſt, <hi>When he Implants Grace;</hi> for he it is that forms thoſe inward diſpoſitions, that are the Seeds and Principles of Ho<g ref="char:EOLhyphen"/>lineſs;
+<pb n="5" facs="tcp:41216:6"/>and in this way of Operation, he introduces a mar<g ref="char:EOLhyphen"/>velous Change; he diſingages men from a wild purfuit of de<g ref="char:EOLhyphen"/>luding happineſs in ſenſible good, and cauſes them to become rightly affected to God in a Redeemer, as their rightful Lord and Soveraign ſatisfying good. Herein lyes much of the Nature of true Converſion, which in the Scripture <hi>dialect,</hi> is to <hi>be born again, and born of the Spirit.</hi> See <hi>John</hi> 3.3 and 6.</p>
+            <p>Secondly, <hi>He is poured out as a Spirit of Grace, when he ex<g ref="char:EOLhyphen"/>cites it:</hi> Holy Souls do experimentally know, that there are ſuch things as <hi>Divine Influences,</hi> by which, gracious affections are inlarged, and their Souls do follow hard after God:<note place="margin">Pſal. 63.8.</note> And why ſhould it be thought ſtrange, that the <hi>bleſſed Spirit</hi> ſhould move upon his own work, and raiſe and ſtrengthen thoſe Holy diſpoſitions, which himſelf has formed?<note place="margin">Pſal. 63.12.</note> Does not <hi>David</hi> pray that God would <hi>uphold him with his free Spirit,</hi> and under Spi<g ref="char:EOLhyphen"/>ritual Decays and Indiſpoſedneſs for intercourſe with God? How many vehement deſires does his holy Soul breath forth, for <hi>quickening</hi> Influences in that 119 <hi>Pſalm.</hi> I come to the Third Propoſition.</p>
+            <p>Thirdly, <hi>There are Seaſons wherein theſe communications of the Spirit, are more plenteous and abundant than at other times.</hi> Some<g ref="char:EOLhyphen"/>times they may in a great meaſure be ſuſpended, our ſloth and miſimprovement may forfeit them; and then the intereſts of practical Godlineſs, will lye in a languiſhing ſtate, and the <hi>good things that are in us be ready to dye.</hi> In this frame, we ſhall have little delight in Converſes with God, or Zeal for his Glo<g ref="char:EOLhyphen"/>ry; our hearts will be unready for ſelf-denying; inſtances of Obedience, and generous deſigns of uſefulneſs to others, will be ſwallowed up by ſome poor low Intereſts which the Fleſh calls our own. But there are happy Seaſons, wherein the Spirit of Life is poured forth again, and theſe Spiritual ruines are repaired thereby; and when this Bleſſing becomes Gene<g ref="char:EOLhyphen"/>ral, the effects of it will ſoon be viſible in the World. 'Tis to ſuch an <hi>eminent Diſpenſation</hi> that my Text refers; and from thence the Prophet dates the beginnings of happy Times: How far we may think our ſelves concerned in this matter, I ſhall inquire in the Application. I proceed therefore to the Second General.</p>
+            <p>Secondly, <hi>What Influence has this Effuſion of the Holy Spirit
+<pb n="6" facs="tcp:41216:7"/>upon an effectual thorough Reformation?</hi> You may take ſome ac<g ref="char:EOLhyphen"/>count thereof in Two particulars.</p>
+            <p>Firſt, <hi>'Tis by an Effuſion of the Holy Spirit, that thoſe Inſtru<g ref="char:EOLhyphen"/>ments whom God is pleaſed to employ in this Work, are prepared for it, and ingaged in it.</hi> This great <hi>Event</hi> is not brought about by an immediate diſplay of abſolute power, but the Wiſdom of God is pleas'd to uſe ſutable and congruous means, and he finds 'em not fitted to his hand but by <hi>pouring out his Spirit</hi> upon them, he makes them ſo.</p>
+            <p>The Concurrence of the <hi>Civil Magiſtrate</hi> is ordinarily neceſ<g ref="char:EOLhyphen"/>ſary, for producing a general Reformation: If they be un<g ref="char:EOLhyphen"/>qualifyed for their place, and negligent in their work, if they Incourage prophaneſs by their practice; ſuch neglects and dangerous Examples, are likely to have a fatal influence upon their people; Experience has taught us, how from ſuch a po<g ref="char:EOLhyphen"/>luted Fountain, Irreligion and Vice will ſoon ſpread through a Land: As often as there were <hi>Idolatrous</hi> Kings in <hi>Judah,</hi> the people generally complied with their <hi>Apoſtacy;</hi> and how rarely are great men truly good. 'Tis but ſeldom that ſerious Piety is the ornament of the purple Robe, tho' it ſhines with a moſt amiable luſtre, when it is found there: When therefore a peo<g ref="char:EOLhyphen"/>ple are bleſſed with Wiſe and Religious <hi>Magiſtrates:</hi> When that exalted Clay is moulded into the Divine Image, we may well account them the <hi>productions</hi> of Divine Power and Grace: They are <hi>anointed with the holy Spirit.</hi>
+            </p>
+            <p>
+               <hi>'Tis he alone that can ſpeak effectually to the Hearts of Princes,</hi> and make them zealous in the matters of their God. 'Tis by Wiſdom from above, that they come to diſcern it their true Intereſt to promote <hi>practical Godlineſs,</hi> that the <hi>Throne may be eſtabliſhed in Righteouſneſs,</hi> rather than to ſtudy their ſecurity by methods of carnal policy; as tho' they hop'd to gain the worſe, which is commonly the greateſt part, by an unre<g ref="char:EOLhyphen"/>ſtrained Indulgence of their Luſts.</p>
+            <p>
+               <hi>'Tis he alone that can influence Subordinate Magiſtrates,</hi> ſo as to poſſeſs them with a ſenſe of their Duty, and diſpoſe them to a zealous attendance on it, that they may attain the end for which they bear the Sword of Civil Magiſtracy in becoming <hi>a terror to evil doers.</hi>
+            </p>
+            <p>
+               <hi>Again,</hi> the Concurrence of the <hi>Miniſtry</hi> is ordinarily requi<g ref="char:EOLhyphen"/>ſite,
+<pb n="7" facs="tcp:41216:7"/>in order to a National <hi>Reformation.</hi> 'Tis they that are <hi>to lift up their voice like a Trumpet, and ſhew the Houſe of</hi> Judah <hi>and</hi> Iſrael <hi>their Sins:</hi> If they know not the Lord, and ſtand not in his Counſel: If they be remiſe in their work, or under the In<g ref="char:EOLhyphen"/>fluence of carnal ſenſual affections in their lives, they will diſ<g ref="char:EOLhyphen"/>ſerve Religion more by their Practice, than they can promote it by their Doctrine; under ſuch unhappy circumſtances, <hi>from the Prophet and Prieſt, prophaneſs goes out thro' the Land.</hi> They muſt be burning and ſhining Lights themſelves, who wou'd be inſtrumental to kindle the flames of Piety and Zeal in others. Now it muſt be by the <hi>effuſion of the holy Spirit</hi> that the ſons of <hi>Levi</hi> are purified: 'Tis he that cloths <hi>his Prieſts with Righteouſ<g ref="char:EOLhyphen"/>neſs:</hi> 'Tis a plentiful Anointing they receive from him, that makes their faces ſhine, that puts a luſtre on their Miniſtrations, that gives them an Authority in the Conſciences of their Peo<g ref="char:EOLhyphen"/>ple, and ſo qualifies them for ſucceſs in their Work.</p>
+            <p>I might add, that perſons of ſome Eminency and Intereſt a<g ref="char:EOLhyphen"/>mong the People, muſt ordinarily help in this Work, to be ex<g ref="char:EOLhyphen"/>emplary to others, <hi>to call for Juſtice,</hi> and to ſtrengthen the hands of Magiſtrates and Miniſters.</p>
+            <p>So that 'tis manifeſt ſo many perſons of different Characters, Intereſts and Stations, muſt be imploy'd in this Work; that it requires more than <hi>Human Wiſdom and Power</hi> to engage and unite them in it: 'Tis therefore the Work of that Powerful <hi>Spi<g ref="char:EOLhyphen"/>rit,</hi> who has immediate acceſs to the heart, and an omnipotent dominion over it; who can form the ſame inclinations in a multitude at once, and cauſe a Nation to be born in a day, and when he is pleaſed to give forth his Effectual Command, <hi>his word goeth very ſwiftly.</hi>
+            </p>
+            <p>
+               <hi>Secondly, 'Tis by the effuſion of the holy Spirit, that the Endeavours which theſe prepared Inſtruments uſe, do become moſt effectual.</hi> I ac<g ref="char:EOLhyphen"/>knowledge, That by the vigorous execution of Wholſom Laws and the concurrent influence of a Faithful Mineſtry, open and ſcandalous Profaneſs may be in a good meaſure ſuppreſſed; and even this is an invaluable Mercy, worth all our care and pains (and it muſt be aſcrib'd to the holy Spirit, as appears by the former Head.)</p>
+            <p>But the <hi>Work</hi> will not be <hi>carried far,</hi> nor <hi>laſt long,</hi> without ſom<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> internal operations o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>,
+<pb n="8" facs="tcp:41216:8"/>outward means can have but little ſucceſs. The diſpenſa<g ref="char:EOLhyphen"/>tion of the Word will be but a Dead Letter, if it be not the mi<g ref="char:EOLhyphen"/>niſtration of the Spirit: Human Laws and Penalties may put men upon ſeeking greater ſeereſy as a ſhelter for their ſins; but it is the holy Spirit awakening mens conſciences, and ſanctify<g ref="char:EOLhyphen"/>ing their hearts, that muſt effectually Reform them. Other Remedies do but <hi>cover</hi> the <hi>Diſeaſe,</hi> this cures it: External ap<g ref="char:EOLhyphen"/>plications do but ſet up a <hi>Dique</hi> againſt the Stream; the San<g ref="char:EOLhyphen"/>ctifying operations of the Spirit, dry up the Fountain, and tho' there are but few truly ſanctified, yet many may be ſo con<g ref="char:EOLhyphen"/>vinced, and ſee ſuch an awful efficacy in the Conſiderations, which an enlightned conſcience repreſents, as may be more ef<g ref="char:EOLhyphen"/>fectual reſtraints, than external ſeverities: For eternal Re<g ref="char:EOLhyphen"/>wards and Puniſhments are confeſſedly of the higheſt and moſt awful importance to thoſe that indeed believe them, and there<g ref="char:EOLhyphen"/>fore our hopes and fears that are converſant about them, are the moſt powerful ſprings of action.</p>
+            <p>I ſay not this to diſcourage your <hi>Pious attempts</hi> of expoſing Scandalous Sinners to the puniſhment the Law aſſigns. For this is highly our duty, and indeed neceſſary to the moſt of ſuch offenders, who are ſo hardened and ſtupified by their luſts, that they ſcarce reſent any puniſhment but what they feel: Yet we ſhould not ſatisfy our ſelves with this, but raiſe our thoughts and deſires higher, even to thoſe victorious operations of the Bleſſed Spirit, by which Sin may be mortified as well as re<g ref="char:EOLhyphen"/>ſtrained.</p>
+            <p>I proceed now to the <hi>application</hi> of this Truth to the preſent occaſion; And there are ſome things I wou'd deduce from hence both for your <hi>Direction</hi> about your work, and for your <hi>Incou<g ref="char:EOLhyphen"/>ragement</hi> in it.</p>
+            <p>
+               <hi>Firſt, By way of Direction,</hi> Wou'd you manage your laudable Attempts againſt Prophaneſs with happy ſucceſs? Contribute thou your utmoſt towards obtaining this <hi>Invaluable Bleſſing;</hi> even a <hi>freſh effuſion of the holy Spirit.</hi> If he withold or withdraw his help, the Work will lie languiſhing on your hands, and even your own <hi>Zeal,</hi> that at preſent ſeems <hi>inflam'd,</hi> will gradu<g ref="char:EOLhyphen"/>ally abate, and at length <hi>expire,</hi> and the whole Deſign prove abortive to the diſappointment of our Prayers and Hopes, and <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Sons of <hi>Belial</hi> and Powers of <hi>Darkneſs.</hi>
+               <pb n="9" facs="tcp:41216:8"/>But if the holy Spirit breath upon your Endeavours, the Work will go on proſperouſly, and prevail mightily, till Satan fall like Lightning from Heaven before you, and his Kingdom be viſi<g ref="char:EOLhyphen"/>bly ſhaken.</p>
+            <p>Obj. <hi>But are not the communications of the holy Spirit arbitrary, like the Rain that comes down from Heaven, which waits not for Men, and tarries not for the ſons of Men? Do's not that ſacred Wind blow where it liſts? What then can we contribute towards obtaining thoſe Heavenly Gales that flow from Soveraign Grace?</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> There are Means appointed, in the due uſe of which, this Bleſſing may be obtained. That merciful God who is the <hi>beſt of Beings,</hi> denies not his gracious Aſſiſtances, when we are not wanting to our ſelves in ſeeking them: And I cannot offer any thing more <hi>ſerviceable</hi> to your Deſign, than by pointing out the way how you may obtain thoſe helps upon which the ſucceſs of all depends. And therefore,</p>
+            <p>
+               <hi>Firſt, Implore the effuſions and aſſiſtances of the holy Spirit by hum<g ref="char:EOLhyphen"/>ble importunate prayer.</hi> This is a way wherein every one of you may be uſeful, and 'tis a way you are directed to, by God him<g ref="char:EOLhyphen"/>ſelf, in <hi>Ezek.</hi> 26, 27 verſe, you find this mercy promiſed, <hi>I will</hi> (ſays God) <hi>put my Spirit within you, and cauſe you to walk in my Statutes, and keep my Judgments, and do them.</hi> But then, this pro<g ref="char:EOLhyphen"/>miſe is not fulfilled while we caſt off the uſe of means, and therefore God adds, in 37 <hi>verſe, I will yet for this, be enquired of by the houſe of Iſrael to do it for them.</hi> To excite you ſo to do, Conſider,</p>
+            <p>
+               <hi>Firſt, This is a Mercy promiſed,</hi> and therefore we have ground and warrant for our Faith and Hope in Prayer: Yea the pro<g ref="char:EOLhyphen"/>miſes of it are referred for their fulleſt accompliſhment to the latter days: Thus <hi>Acts</hi> 2.16, 17 <hi>verſes, This is that which was ſpoken of by the Prophet Joel. And it ſhall come to paſs in the laſt days</hi> (ſaith God) <hi>I will pour out my Spirit upon all fleſh,</hi> &amp;c. There was a communication of the Spirit under the <hi>Old Teſtament,</hi> but it was more ſparingly, like the watering of a Garden by a ſingle hand; but he is diſpenſed more liberally and univerſal<g ref="char:EOLhyphen"/>ly under the <hi>New,</hi> like the Clouds pouring down Rain upon the Earth: <hi>Upon all fleſh,</hi> without diſtinction of <hi>Jew and Gentile.</hi> I am ſenſible that the <hi>Apoſtle</hi> applies that Promiſe more emi<g ref="char:EOLhyphen"/>nently to <hi>extraordinary Gifts,</hi> but I ſee no reaſon to confine it
+<pb n="10" facs="tcp:41216:9"/>ſo as to exclude <hi>ordinary ones;</hi> eſpecially ſince the former were in order to the greater ſucceſs of the latter. I acknowledge al<g ref="char:EOLhyphen"/>ſo, that the <hi>Apoſtle</hi> ſpeaks of that Promiſe, as fulfilled in the <hi>Primitive times:</hi> But Judicious Expoſitors have well obſerved, That ſuch Promiſes as concern neceſſary Mercies, have not their full accompliſhment at once, they are fulfilled agen and agen in every Age, as the neceſſities of the Church to which in common they belong, do roquire. <hi>The laſt Days</hi> are the whole time of the Goſpel,<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Cor. 3.9.</note> and therefore the <hi>Apoſtle</hi> ſpeaks of the Goſpel State in general, as becoming <hi>Glorious, by its being the miniſtration of the Spirit,</hi> tho' there may be ſome particular ſeaſons that do <hi>more exceed in glory:</hi> This then is a promiſed Mercy; ſo that when we plead with God in Prayer for it, we may hold up his own Word as our Warrant, and bottom our hope of ſucceſs on his Faithfulneſs, as well as Mercy.</p>
+            <p>
+               <hi>Secondly, This is a neceſſary Mercy:</hi> And as the former Conſi<g ref="char:EOLhyphen"/>derration ſhould raiſe our hope, ſo this beſpeaks our <hi>Importunity:</hi> The growth of Irreligion, and the decays of the power of Godli<g ref="char:EOLhyphen"/>neſs are ſuch among us, that without it, we ſhall not be healed. We may try many remedies ('tis our duty to do ſo) and they may have an hopeful and promiſing appearance; but alas all will be a <hi>dead Image,</hi> if the Spirit of life breath not in it: The Stream of corrupt nature will overbear and baffle all our feeble oppoſition, if omnipotent Grace do not interpoſe and help: Let us then lay open our Wounds before the great Phyſitian, let us ſpread our neceſſities before the Father of Mercies, who has directed us to argue from our own bowels, and to expect much more from his: <hi>Luke,</hi> 11.13. <hi>If</hi> (ſays our Saviour) <hi>ye being evil know how to give good gifts to your children, how much more will your Heavenly Father give his holy Spirit to them that ask him.</hi> Let us then both in our Joint Addreſſes, and Secret Re<g ref="char:EOLhyphen"/>tirements, ſend up the earneſt importunate Cries of Periſhing Creatures: Let our hearts cry as loudly as our wants do, that God would <hi>pour down his Spirit</hi> upon this declining Generation; Oh what an happy Change wou'd it make, and how ſoon would the face of our Earth be renewed again?</p>
+            <p>
+               <hi>Secondly, Wait for this Mercy in a diligent attendance on your du<g ref="char:EOLhyphen"/>ty:</hi> We muſt ſet upon <hi>Action</hi> when God calls, and truſt him for <hi>ſtrength</hi> as well as <hi>ſucceſs:</hi> The aſſiſtance of the holy Spirit
+<pb n="11" facs="tcp:41216:9"/>is not deſigned to indulge our ſloth, or to do the work with<g ref="char:EOLhyphen"/>out us, but to animate our Induſtry and help us in it: Apply your ſelves to this preſent Service therefore with all your might: <hi>
+                  <g ref="char:V">Ʋ</g>p and be doing, and the Lord will be with you,</hi> and let your frame and actings be ſuch, as may be likely to be thus owned from Heaven. In order whereunto, I ſhall take the liberty to offer two <hi>Directions.</hi>
+            </p>
+            <p>Firſt, <hi>Labour to act from thoſe principles in this matter, that are agreeable to the word of God,</hi> and may render your endeavours pleaſing to him: A bad <hi>End</hi> may vitiate a good <hi>Action,</hi> and blaſt its uſefulneſs to men, as well as hinder its acceptance with God. Beware that you do not cover any <hi>Luſt</hi> with the Diſguiſe of <hi>Zeal</hi> for God. Let not <hi>Paſſion, Malice,</hi> or <hi>Revenge,</hi> Influence you to any of your <hi>Informations</hi> or <hi>Proſecutions:</hi> But let Zeal for the Honour of God, Compaſſion to the Souls of men, and generous aims at the publick good, be the great Springs of your Actings.</p>
+            <p>Firſt, <hi>Zeal for God and the Honour of Religion.</hi> All Sin has a manifeſt tendency to diſhonour the bleſſed God: 'Tis a Re<g ref="char:EOLhyphen"/>flection on his infinite <hi>Wiſdom and Goodneſs,</hi> as tho' he had bur<g ref="char:EOLhyphen"/>thened our Nature with an heavy Yoke, an unſuitable un<g ref="char:EOLhyphen"/>equal Law. 'Tis a Denial of his Authority, as tho' he had no juſt right to Govern his own Creature. It would caſt down the glorious <hi>Jehovah</hi> from his Throne of Supremacy o<g ref="char:EOLhyphen"/>ver the Children of Men; and ſurely the <hi>attempt</hi> is <hi>horrible,</hi> tho' it wants ſucceſs, and the <hi>affront</hi> is more hanious, when Sin is open and <hi>notorious,</hi> ſo that others ſee our contemptuous diſregards of that <hi>Supream being:</hi> Let your Hearts be deeply affected with this malignity of Sin, in all your endeavous to ſuppreſs it; and labour to revive the <hi>Power and Practice of ſerious Religion</hi> with this end in your eye, that your <hi>Heavenly Father may be glorified;</hi> for <hi>he is glorified by our bringing forth much Fruit,</hi> John 15.8. The Holineſs of the Members makes an honourable repreſentation to the world of their glorious head. It ſhews forth the efficacy of the Mediation of our <hi>Lord Jeſus Chriſt,</hi> and the power of his Grace, when our <hi>barren Nature</hi> is recovered to <hi>Fruitfulneſs.</hi> This would be the great honour of the <hi>Chriſtian Religion.</hi> It wou'd repreſent it amiable and re<g ref="char:EOLhyphen"/>commend it to the acceptance of a blind prejudiced World
+<pb n="12" facs="tcp:41216:10"/>Who could doubt of its <hi>divine Original,</hi> when they ſaw, its <hi>divine Effects;</hi> in transforming the Hearts of men, Purifying their Lives, and making them Fruitful in all inſtances of Vir<g ref="char:EOLhyphen"/>tue and Piety.</p>
+            <p>Secondly, <hi>Compaſſion to the Souls of Men,</hi> even theirs whom your duty obliges you to expoſe to ſhame and puniſhment: Let Love to their <hi>Perſons</hi> be flaming in your Breaſts, while you expreſs a juſt deteſtation of their <hi>Sins:</hi> Believe you do 'em a friendly Office, while they miſtake you for their Ene<g ref="char:EOLhyphen"/>mies; look upon your Informations againſt them, under the notion of a <hi>Remedy</hi> rather than a <hi>Penalty,</hi> and beg of God that it may be effectual. This may be the firſt ſtep towards <hi>ſaving a Soul from Death;</hi> for they that are not capable of other Ar<g ref="char:EOLhyphen"/>guments, may begin to learn by <hi>ſuffering,</hi> ſome part of the evil of Sin.</p>
+            <p>To excite your <hi>Compaſſions,</hi> conſider the extream danger of precious Souls. What a fatal precipice is before 'em? Into what a dreadful amazing <hi>Gulf</hi> are they haſty to plunge them<g ref="char:EOLhyphen"/>ſelves, even a <hi>State of Everlaſting wo?</hi> May not the thoughts of it make our Fleſh to tremble, and over whelm our minds if we do ſeriouſly believe it: And are theſe things indeed ſo? Is this <hi>terrible Hell</hi> more than a painted Fire? Is it a certain reality, near at hand? Are multitudes of our fellow Crea<g ref="char:EOLhyphen"/>tures going down into it before our eyes? How ſhould this con<g ref="char:EOLhyphen"/>ſideration raiſe our deepeſt Compaſſion, and (as the Prophet ſpeaks) <hi>make our very Bowels to ſound as an Harp.</hi> My Brethren, if we have any Principles of Tenderneſs, and Pity in our Conſtitution, let us expreſs them by our utmoſt endeavours, to prevent this dreadful ruine to Souls. Act from this Princi<g ref="char:EOLhyphen"/>ple in your preſent work.</p>
+            <p>Thirdly, <hi>Generous aims at the publick good:</hi> We cannot more effectually conſult the welfare of our <hi>Lands,</hi> than by methods of <hi>Reforming</hi> them; for Sin brings ruine upon <hi>Collective Bodies</hi> in this World, as well as upon <hi>particular Perſons</hi> in the next. But <hi>Righteouſneſs exalts a Nation;</hi>
+               <note place="margin">Prov. 14.24.</note> it ingages the Indulgent fa<g ref="char:EOLhyphen"/>vourable <hi>Providence</hi> of God on their ſide; his Protection will be a Wall of defence unto them, his favour will make them great: So that they ſhall be the Head and not the Tail, chief among the Nations, and Princeſs among the Provinces: Where
+<pb n="13" facs="tcp:41216:10"/>Juſtice, Temperance, Charity and Piety abound, they put a luſtre upon ſuch a People in the Eyes of others. How effectu<g ref="char:EOLhyphen"/>ally was this Exemplify'd in the Kingdom of <hi>Judah,</hi> when they were zealous for the Law of their God, they were the Glory of all Lands, the Wonder and Envy of other Nations; their Enemies ſubmitted themſelves on every ſide, Peace and abundant Proſperity were the Bleſſings of their happy Times. So that zeal for Practical Religion is the beſt <hi>Expedient</hi> for the welfare of our Lands, whoſe good we are bound to ſeek under all manner of Obligations. If ſuch motives as theſe have the governing Influence over you in your preſent work, you may comfortably expect that God will be with you in it.</p>
+            <p>
+               <hi>A Second Direction is, carefully avoid every thing that may pro<g ref="char:EOLhyphen"/>voke the Holy Spirit to deny or withdraw his Influence and Help;</hi> and among other evils that have ſuch a fatal Tendency. Let me uſe the freedom and faithfulneſs to caution you againſt theſe four.</p>
+            <p>Firſt, <hi>Cold Neutrality:</hi> Too many are ready to ſay, <hi>This is a matter that doth not concern me; am I my Brothers keeper?</hi> Yes you are, the Authority of God has made you ſo, and you muſt be reſponſable to him for your neglect. 'Tis the voice of God to us all at this day, and the voice of the Civil Magi<g ref="char:EOLhyphen"/>ſtrate; <hi>Who is on my ſide, who?</hi> and here is no room for Neu<g ref="char:EOLhyphen"/>ters. <hi>If you are not with us, you are in the righteous conſtruction of God againſt us.</hi>
+               <note place="margin">Mat. 12.30.</note>
+            </p>
+            <p>It has been already proved abundantly by <hi>abler hands,</hi> who have appeared for the Encouragement and Defence of this Cauſe; that private Perſons are obliged to promote Reform<g ref="char:EOLhyphen"/>ing work, as far as regularly they can; the moſt excellent Laws avail but little, without a vigorous Execution. Now the Law cannot be Executed unleſs the Tranſgreſſor be Con<g ref="char:EOLhyphen"/>victed; and you know this Conviction is devolved upon the hand of private Perſons: So that the Intereſts of Practical Religion need your help, and you cannot refuſe it without incurring the heavy diſpleaſure of God, and expoſing your ſelves to the Curſe that was denounced againſt thoſe, <hi>who wou'd not go forth to the help of the Lord againſt the might:</hi> Yea by your neglects, you become acceſſaries to all the Sins you might <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>revent, and ſo are chargeable with other mens Guilt, as
+<pb n="14" facs="tcp:41216:11"/>well as laden with your own. Oh then let not <hi>Sloth,</hi> or a <hi>baſe regard to your carnal Intereſts, or indifferency in the matters of God,</hi> or <hi>fear of offending man,</hi> tempt you to a neglect of this Duty. If we will not do as much as this, when the honour of God, the good of <hi>Souls,</hi> and the publick Inte<g ref="char:EOLhyphen"/>reſt require it, we ſeem to be a reproach to the <hi>rational nature of man,</hi> and much more unworthy of the dignifying name of <hi>Chriſtian.</hi>
+            </p>
+            <p>Secondly, <hi>Neglects of perſonal Reformation,</hi> to appear zealous againſt the <hi>Luſts</hi> of <hi>others,</hi> and Indulge our <hi>own,</hi> would be ſuch a piece of vile hypocriſy, as wou'd juſtly expoſe us to the <hi>Scorn of men,</hi> as well as the <hi>wrath of God.</hi> Your undertaking obliges you to the utmoſt care to keep your <hi>Garments undefiled,</hi> and to be exemplary in univerſal Holineſs: This will give you boldneſs before the Faces of men, and ſome Authority and reſpect in their Conſciences. Oh then begin impartially to practice Reforming work at home, and go not about to <hi>pull a Mote out of your Brothers Eye,</hi> with a <hi>Beam in your own.</hi>
+            </p>
+            <p>Thirdly, <hi>Pride and ſwelling Self-conceit,</hi> as thô we were the men, and Wiſdom and Holineſs ſhould dye with us: As thô we expected to be diſtinguiſhed from others, and preferred before them, <hi>as the zealous Reformers of the Age.</hi> This is a Snare that younger perſons are in moſt danger to be taken in; but who<g ref="char:EOLhyphen"/>ever are infected with it, it is hateful to God, who <hi>abhors the Proud.</hi>
+               <note place="margin">Iſa. 57.15.</note> 'Tis humble Souls that are the Temple, the Throne of the holy Spirit; he dwells with them, deligts in them. Oh then watch againſt Self-exalting thoughts, and if God honour you to be of any <hi>Uſe,</hi> give him all the <hi>Praiſe,</hi> and learn to ſay humbly with the Apoſtle <hi>Paul, By the Grace of God I am what I am.</hi>
+               <note place="margin">1 Cor. 15.10.</note> Remember you are chargable with omiſſions, enough to make you Arraign your ſelves as unprofitable Servants; and the defects of your beſt works are ſuch as need Pardon<g ref="char:EOLhyphen"/>ing mercy, and the attoning Blood of Chriſt.</p>
+            <p>Fourthly, <hi>Uncharitable breaches, and diſtances in affection from one another.</hi> 'Tis a remarkable connexion you have in <hi>Epheſ.</hi> 4.30, 31. <hi>Grieve not the Holy Spirit of God,</hi> &amp;c. and then it follows; <hi>Let all bitterneſs, and wrath, and anger, and clamour, and evil ſpeaking, be put away from you, with all malice, and be you kind to one another.</hi> The holy Spirit is a Spirit of Unity,
+<pb n="15" facs="tcp:41216:11"/>peace and love. Dividing Spirits baniſh <hi>him:</hi> I am afraid we have been faulty on all ſides, in <hi>cenſures, envy, variance, wrath,</hi> &amp;c. May ſuch unhappy Flames expire, and never be kindled more: For (my Brethren) Are we not <hi>one Body,</hi> as to Principles of Truth, and the great Intereſts of Practical Godlineſs? Yea, Are we not of one Communion as to the Eſſentials of Worſhip? And tho' there is ſome Variety in the External Forms of Ad<g ref="char:EOLhyphen"/>miniſtration, and in Government, yet, why ſhou'd the leſſer things wherein we differ, be more effectual to divide out hearts, than the greater, wherein we agree, are to unite us: Oh let us ſhew that we have received Anointings from the Spirit of love, by our cordial undiſſembled affection to one another. Let us baniſh envy, and narrow Deſigns for the Intereſts of a Party to the prejudice of the Common Good: Let us cheriſh noble generous Principles of Mutual Forbearance and Conde<g ref="char:EOLhyphen"/>ſcenſion: Let us cover any untender, leſs obliging Paſſages that may occur with the Mantle of Love, and ſilently offer up little provocations to new Heats, as a Sacrifice to Peace; as conſidering our own Infirmities, and accounting it the Glory of the Chriſtian Religion, That it can unite our <hi>hearts,</hi> tho' our <hi>minds</hi> be not of the ſame ſize: And if we thus <hi>live in Love,</hi> we may hope that the <hi>God of Love and Peace</hi> will be with us.</p>
+            <p>And now let me inforce theſe <hi>Directions</hi> upon you, by put<g ref="char:EOLhyphen"/>ting you in mind of that <hi>complication of Circumſtances,</hi> that make it both an <hi>inviting</hi> and <hi>a preſſing opportunity</hi> for <hi>Reforming Work.</hi> And,</p>
+            <p>
+               <hi>Firſt, The great Mercies we have received, oblige us to prepare a Thank-Offering for our God:</hi> The Light of Nature ſufficiently dictates this Duty, and will leave us unexcuſable if we neglect <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t: How do Benefits when they are <hi>great and many,</hi> and all from <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n <hi>unobliged hand;</hi> Engage, and even command our hearts: Who can forbear to love and honour a great and generous Bene<g ref="char:EOLhyphen"/>factor? For <hi>ſuch a good Man</hi> that lives for the good of others, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat is a common Bleſſing, <hi>ſome would even dare to dye.</hi>
+               <note place="margin">Rom. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.7.</note> And is <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y ſo much our Benefactor, as the bleſſed God? Is not his dai<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Providence an unexhauſted ſpring of inumerable Favours? <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>as he not made us <hi>Wonders</hi> of Mercy in our <hi>own eyes,</hi> and to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e <hi>aſtoniſhment</hi> of <hi>Europe,</hi> of late Years? And ſurely the Be<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> are not the leſs, becauſe the Giver of them is the <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="16" facs="tcp:41216:12"/>Should not undeſerved Bleſſings from the hand <hi>of God,</hi> make at leaſt as deep an impreſſion upon our hearts, as they would do from our <hi>Fellow-creatures: They</hi> owe us ſome ſervice, <hi>God</hi> none; We can make ſome compenſation unto them, none unto <hi>God.</hi> But ſurely all the Laws of Gratitude bind us to expreſs as far as we are able a thankful temper towards him.</p>
+            <p>
+               <hi>Now would you prepare him an Offering?</hi> You cannot find any more acceptable than this: When the <hi>Pſalmiſt's</hi> ingenuous heart was inquiſitive,<note place="margin">Pſal. 116 12.14.</note> 
+               <hi>What ſhall I render to the Lord?</hi> This is one great Inſtance he fixes on, <hi>I will pay thee all my vows. i. e.</hi> The Vows I made about Reformation, and better Obedience: Not, that God is a gainer by our ſervices, or as tho' our righteouſ<g ref="char:EOLhyphen"/>neſs did profit him, but his Infinite Goodneſs is ſuch, that he has made our Duty and Intereſt, one; and is beſt pleaſed with us, when we are kindeſt to our ſelves.</p>
+            <p>
+               <hi>Secondly, We have now leiſure for Reforming Work, while our Lands have reſt from War:</hi> Has God reſtored <hi>Peace,</hi> that we ſhould indulge our ſelves in ſloth? God forbid that we ſhould ſo abuſe his Signal Favours: Should we not rather Argue, that now we are in ſafety from our Enemies; we will more Reſol<g ref="char:EOLhyphen"/>vedly purſue <hi>his,</hi> even our own and other Mens Sins: <hi>David</hi> was not permitted to build the Houſe of God, becauſe he had many Wars. That Honour was reſerved to crown the Peace <hi>of Solomon</hi>'s <hi>Reign:</hi> Thus, <hi>National Reformation</hi> is a Signal Du<g ref="char:EOLhyphen"/>ty when we are in publick danger, and under the Sword o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> War; but it is a great difficulty to attend that ſervice amids the Diſtractions and Confuſions of that Eſtate. But we ſhall be left without all excuſe, if when God gives us leiſure from <hi>other Work,</hi> we ſhou'd neglect <hi>his.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> Our Lands are now brought under a new ſtate o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Probation and Trial before the Lord. The devouring Swor<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is ſheath'd, that Controverſy ſeems at preſent ended: Not that we deſerved it, but becauſe an Indulgent God will not alway contend: But now we are conſtituted in critical circumſtan<g ref="char:EOLhyphen"/>ces, we are now on our <hi>Good behaviour:</hi> If therefore we car<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> well under our <hi>preſent Mercies,</hi> we may hope they are but th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Introduction to <hi>greater;</hi> and that God will treat us as the F<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>vourites of his Providence.</p>
+            <p>But if under the <hi>Shades of Peace,</hi> we indulge our ſelves
+<pb n="17" facs="tcp:41216:12"/>Pride, Luxury, Luſt, Irreligion, and ſo repeat our former provocations; what may we yet expect, but that he will plead againſt us with Fury poured out; And his Armory is not yet empty; The Inſtruments of Death are ſtill within our ſight, and how eaſily can a provoked God take them into his hand again, and make <hi>us ſick,</hi> yea, utterly <hi>deſtroy</hi> us in <hi>ſmiting</hi> us: Let ſuch Conſiderations excite your utmoſt diligence to pro<g ref="char:EOLhyphen"/>cure the pouring forth of the Spirit; no other Expedient will be long effectual for our help. But I proceed,</p>
+            <p>
+               <hi>Secondly, To add ſome things for your Encouragement in this Work,</hi> And the great Encouragement I would offer, is this, <hi>That there are hopeful Indications that we are under the beginnings of ſuch a bleſſed Diſpenſation, that God is pouring forth the Spirit from on high upon us.</hi>
+            </p>
+            <p>May we not hope that ſome of this <hi>Sacred Oyl</hi> is poured on our <hi>Soveraigu</hi>'s <hi>Head,</hi> the fruit whereof appears in his Zealous <hi>Reſolves, effectually to diſcourage Prophaneſs and Immorality,</hi> and in his late Excellent <hi>Proclamation</hi> to that purpoſe. With what Tranſports of Joy ſhould we hear ſuch a Reviving Voice from the Throne? And may we not expect that the Work will not ſtop here, but <hi>that our King in his Wiſdom, will ſcatter the Wick<g ref="char:EOLhyphen"/>ed, and bring the Wheel over them:</hi>
+               <note place="margin">Prov. 20.26</note> That his Reign ſhall be<g ref="char:EOLhyphen"/>come yet more Glorious, by a <hi>Triumph</hi> over the Vices of our <hi>Degenerate Lands,</hi> and thoſe Infernal Powers that propagate and uphold them. May we not hope that it is the word of the Lord to our Royal <hi>Zorobabel, That as his hand has laid the foun<g ref="char:EOLhyphen"/>dation of our Deliverance,</hi> ſo <hi>his hand ſhall lay on this compleating Head ſtone alſo: That we may with Shoutings cry, Grace, Grace unto it.</hi>
+               <note place="margin">Zech 4.7.9.</note>
+            </p>
+            <p>And ſhou'd it not raiſe our hopes higher, to behold a por<g ref="char:EOLhyphen"/>tion <hi>of the ſame Spirit</hi> reſting upon our <hi>Publick Councils?</hi> Are not thoſe Excellent Laws againſt ſome inſtances of Vice that have been lately Enacted both in <hi>England</hi> and this <hi>Kingdom:</hi> And that Pious, Zealous <hi>Addreſs</hi> of thoſe Noble Senators in <hi>England,</hi> the fruit thereof. Surely 'tis matter of great Incou<g ref="char:EOLhyphen"/>ragement and ground of hope, that our <hi>Legiſlative Powers</hi> have thus own'd and ſuccoured the languiſhing <hi>Cauſe of Religion.</hi>
+            </p>
+            <p>Yea ſeveral of thoſe that are in <hi>Subordinate Authority,</hi> ſeem anointed with the ſame Spirit. Among whom, the <hi>Magiſtra<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> of this City,</hi> and ſome perſons of Worth in the <hi>Commiſſion</hi> for
+<pb n="18" facs="tcp:41216:13"/>the <hi>Peace,</hi> near it, deſerve a moſt Honourable Remembrance, both for their active Zeal in puniſhing <hi>Offenders,</hi> and their pru<g ref="char:EOLhyphen"/>dent care to cover <hi>Informers</hi> from Violence and Rage.</p>
+            <p>And is not this <hi>Sacred Anointing,</hi> upon the head of our <hi>Bo<g ref="char:EOLhyphen"/>dy Politick,</hi> deſcended to the Skirts of our Garments, even to many <hi>Private perſons,</hi> whoſe Spirits God has ſtirred up to put their hand to this Work with Zeal, Alacrity, Courage, and Self-denial: It looks as tho' God had ſome Merciful Deſign on foot, when he has done ſuch a new thing in the Earth, that private perſons have formed themſelves into diſtinct Societies, that their Endeavours may be both more Regular and Succeſs<g ref="char:EOLhyphen"/>ful in executing our Wholſom Laws: And the Deſign ſeems ſo much the more to be of God, that there is ſuch a ſweet har<g ref="char:EOLhyphen"/>mony and accord among perſons of different Perſwaſions, in promoting the common Intereſt of Religion.</p>
+            <p>And (that I may mention no more) It <hi>looks like a Token for Good,</hi> That ſo many of the <hi>Riſing Generation</hi> ſeem to have in their hearts, ſome <hi>good thing towards the Lord God of Iſrael:</hi> That the Lord is pleaſed to <hi>rejoyce in our Young Men,</hi> that his Provi<g ref="char:EOLhyphen"/>dence has ſo wonderfully ſecured any of them from the infection of evil Examples, and preſerved them from the Vanities and Vices, to which that Age is commonly addicted. So that in<g ref="char:EOLhyphen"/>ſtead of Senſual Intertainments, they aſſociate for the Exerci<g ref="char:EOLhyphen"/>ſes of Religious Worſhip, and to provoke one another to Love, and to Good Works.</p>
+            <p>Oh my Brethren, what an happy change may we ſee in the Face of our Affairs? What a turn has God given to the Spirits and Inclinations of many? It would be a denying to give unto God the Glory due to his Name, to aſcribe ſo great an <hi>Effect</hi> to a lower <hi>Cauſe:</hi> I conclude therefore, that there are ſome <hi>Effuſions of the Spirit from on high among us.</hi>
+            </p>
+            <p>And, Oh what encouragement ſhou'd you derive from hence, to go on with undaunted Fortitude and Zeal. May I not apply to you the words of the Prophet <hi>Haggai,</hi> 2.4. <hi>Yet now be ſtrong oh</hi> Zerubbabel, <hi>&amp;c. Be ſtrong all ye people of the Land, ſaith the Lord, and work, for I am with you, ſaith the Lord of Hoſts.</hi> This Conſideration ſhould be your great Re<g ref="char:EOLhyphen"/>lief againſt the difficulty of the Work; you find it propoſed for this end by the Holy Ghoſt, <hi>Zech.</hi> 4.6. — <hi>Not by
+<pb n="19" facs="tcp:41216:13"/>Might nor by Power, but by my Spirit, ſaith the Lord:</hi> and then it follows, <hi>Who art thou O great Mountain before</hi> Zerubbabel, <hi>thou ſhalt become a Plain.</hi> Aſſiſtances from the Holy Spirit ſhould raiſe our Hearts and Hopes above all diſcouragement. It muſt be confeſt, there are Mountainous Difficulties in the Way; but what are they before the Spirit of God? How ſoon can Omnipotency ſmooth and level them? Our Di<g ref="char:EOLhyphen"/>ſeaſe is indeed ſo inveterate; it has ſpread ſo far, and pre<g ref="char:EOLhyphen"/>vailed ſo long, that our Caſe would be deſparate in any other Hand: But if that great Phyſitian undertake the Cure of our ſick Souls and State, the work will proſper in his Hand.</p>
+            <p>This Conſideration ſhould alſo help you againſt the pau<g ref="char:EOLhyphen"/>city of the Numbers that are yet Ingaged in this Work; it is yet but in its Infancy and Beginning: If we do not ſin away our own Mercies, this heavenly Dew will deſcend more plen<g ref="char:EOLhyphen"/>teouſly, and difuſe its ſelf more generally; ſo that this ſmall Cloud ſhall cover the whole Heavens: The work is in his Hand, who can of Stones raiſe up Children unto <hi>Abraham.</hi> Let us not therefore deſpiſe the day of ſmall things, but perſiſt in this way of known duty, and refer the Iſſue to the Soveraign will of God: Tho' the Body of the People ſhould not yet be Reformed, yet a ſmall number of Zealous Pious Perſons, may be ſet in the Balance againſt all the reſt, and may prevail to obtain a longer ſpace of Repentance for them; and in order thereto, your Example may provoke others to an Holy Emulation; yea, it has done ſo already. The happy Deſign was at firſt but in a few hands; all of them Members of the Eſtabliſht Church. (This Honour God has put upon them, and it ſhould be far from being matter of Envy to Pro<g ref="char:EOLhyphen"/>teſtant Diſſenters, who (I hope) will bleſs God for it, and be ready to acknowledge it to their juſt praiſe upon all occaſions) But is not <hi>Jacob</hi>'s Staff already become Two Bands in this City? And does not the ſame deſign happily ſucceed in ſome other parts of this Kingdom, and we hope will in a little time pre<g ref="char:EOLhyphen"/>vail in many more. May we not ſee God going forth with us; and ſhall our Succeſſes diſhearten us? Shall we faint with grounds of hope about us on every ſide? Oh remember you ſerve a good Maſter; you are Engaged in a moſt
+<pb n="20" facs="tcp:41216:14"/>Honourable Work. You have promiſes concerning effectu<g ref="char:EOLhyphen"/>al help; and if a Seaſon for an eminent effuſion of the Holy Spirit be at hand, Mercy will further ſhew its pleaſing Face to us on every Hand; Glory will adorn our Lands, and great will be the day of <hi>Jezreel.</hi>
+            </p>
+            <p>But whatever be the Iſſue; tho' Iſrael ſhould not now be gathered; tho' theſe attempts for Reformation ſhould be fruitleſs (which God forbid) yet if your Hearts be ſincere in this Work, the Lord will not be Unrighteous to forget your Zeal, and that Labour of Love which you have ſhewn, and ſhall further ſhew to his Name in this matter.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:41216:14"/>
+         </div>
+      </body>
+   </text>
+</TEI>
